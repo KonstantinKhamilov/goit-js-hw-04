@@ -1,3 +1,5 @@
+`use strict`;
+
 function isEnoughCapacity(products, containerSize) {
   let totalProducts = 0;
   for (let product in products) {
